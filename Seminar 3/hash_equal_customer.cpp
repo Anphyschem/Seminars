@@ -18,7 +18,7 @@ void hash_value(std::size_t & seed, const T & value) noexcept
 }
 
 template < typename T, typename ... Types >
-void hash_value(std::size_t & seed, const T & value, const Types & ... args) noexcept
+void hash_value(std::size_t & seed, const T & value, const Types & ... args) noexcept //рекурсивно добавляем 
 {
 	hash_combine(seed, value);
 	hash_value(seed, args...);

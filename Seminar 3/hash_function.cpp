@@ -36,4 +36,4 @@ int main(int argc, char ** argv)
 // h = 100581781 * HASH_MUL + 118
 // return 3118035329 % HASH_SIZE
 
-// hash("ivanov") = 1
+// hash("ivanov") = 1
